@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+}
+
+.datashow {
+    width: 70%;
+    border-collapse: collapse;
+    margin-inline: auto;
+}
+
+.datashow th,
+.datashow td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.datashow th {
+    background-color: #eee;
+}
+
+.add-student-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #aaa;
+    max-width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-inline: auto;
+}
+
+.status-msg {
+    margin-top: 10px;
+    display: block;
+    color: green;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 30px;
+}
